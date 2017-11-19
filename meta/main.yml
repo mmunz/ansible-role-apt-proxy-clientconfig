@@ -1,0 +1,19 @@
+galaxy_info:
+  author: Manuel Munz
+  description: Configure apt to use a proxy server.
+  company: comuno.net
+  license: BSD
+  min_ansible_version: 2.2
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  
+  galaxy_tags:
+    - apt
+    - apt-cacher-ng
+    - proxy
